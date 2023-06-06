@@ -7,13 +7,15 @@
 </template>
 
 <script lang="ts">
-export default {
+import { defineComponent } from 'vue'
+
+export default defineComponent({
   data() {
     return {
       rawHtml: `<span style="color:red">This should be red.</span>`
     }
   }
-}
+})
 </script>
 
 <style lang="scss" scoped></style>

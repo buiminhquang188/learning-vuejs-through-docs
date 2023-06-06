@@ -6,13 +6,15 @@
 </template>
 
 <script lang="ts">
-export default {
+import { defineComponent } from 'vue'
+
+export default defineComponent({
   data() {
     return {
       msg: 'Template Syntax'
     }
   }
-}
+})
 </script>
 
 <style lang="scss" scoped></style>
