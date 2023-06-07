@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import AttributeBindings from '@/components/TemplateSyntax/AttributeBindings.vue'
-import DirectivesSyntax from '@/components/TemplateSyntax/DirectivesSyntax.vue'
-import RawHtml from '@/components/TemplateSyntax/RawHtml.vue'
-import TextInterpolationVue from '@/components/TemplateSyntax/TextInterpolation.vue'
-import UsingJavaScriptExpressionsVue from '@/components/TemplateSyntax/UsingJavaScriptExpressions.vue'
+  import AttributeBindings from '@/components/TemplateSyntax/AttributeBindings.vue'
+  import DirectivesSyntax from '@/components/TemplateSyntax/DirectivesSyntax.vue'
+  import RawHtml from '@/components/TemplateSyntax/RawHtml.vue'
+  import TextInterpolationVue from '@/components/TemplateSyntax/TextInterpolation.vue'
+  import UsingJavaScriptExpressionsVue from '@/components/TemplateSyntax/UsingJavaScriptExpressions.vue'
 </script>
 
 <template>
-  <div>
+  <div class="content">
     <TextInterpolationVue />
     <RawHtml />
     <AttributeBindings />
@@ -16,4 +16,8 @@ import UsingJavaScriptExpressionsVue from '@/components/TemplateSyntax/UsingJava
   </div>
 </template>
 
-<style scoped></style>
+<style lang="scss" scoped>
+  .content {
+    margin-bottom: 200px;
+  }
+</style>
