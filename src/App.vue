@@ -27,6 +27,9 @@
         <RouterLink to="/class-and-style-bindings"
           >Class and Style Bindings</RouterLink
         >
+        <RouterLink to="/conditional-rendering"
+          >Conditional Rendering</RouterLink
+        >
       </nav>
     </div>
   </header>
