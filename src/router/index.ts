@@ -36,6 +36,11 @@ const router = createRouter({
       path: '/class-and-style-bindings',
       name: 'class-and-style-bindings',
       component: () => import('../views/ClassAndStyleBindings.vue')
+    },
+    {
+      path: '/conditional-rendering',
+      name: 'conditional-rendering',
+      component: () => import('../views/ConditionalRendering.vue')
     }
   ]
 })
