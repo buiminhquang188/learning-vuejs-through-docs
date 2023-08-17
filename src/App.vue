@@ -24,6 +24,9 @@
           >Reactivity Fundamentals</RouterLink
         >
         <RouterLink to="/computed-properties">Computed Properties</RouterLink>
+        <RouterLink to="/class-and-style-bindings"
+          >Class and Style Bindings</RouterLink
+        >
       </nav>
     </div>
   </header>

@@ -26,6 +26,16 @@ const router = createRouter({
       path: '/reactivity-fundamentals',
       name: 'reactivity-fundamentals',
       component: () => import('../views/ReactivityFundamentals.vue')
+    },
+    {
+      path: '/computed-properties',
+      name: 'computed-properties',
+      component: () => import('../views/ComputedProperties.vue')
+    },
+    {
+      path: '/class-and-style-bindings',
+      name: 'class-and-style-bindings',
+      component: () => import('../views/ClassAndStyleBindings.vue')
     }
   ]
 })
